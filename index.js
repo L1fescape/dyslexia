@@ -1,7 +1,7 @@
 'use strict';
 
 var randomInt = require('random-int');
-var _ = require('lodash');
+var _assignIn = require('lodash/assignIn');
 
 // parse words out of a string and mess them up
 function dyslexia(str, options) {
@@ -25,7 +25,7 @@ function dyslexia(str, options) {
 // scramble the word, being sure to always keep the first and last letters
 // in-tact. this is important so the text can still be read.
 function scrambleWord(word, options) {
-  options = _.assignIn({}, options, {
+  options = _assignIn({}, options, {
     minWordLength: 3,
     scrambleChance: 100
   });

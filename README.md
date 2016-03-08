@@ -1,5 +1,7 @@
 # Dyslexia sj
 
+> Jumble text to simulate reading with dyslexia
+
 ## Usage
 
 ```js
