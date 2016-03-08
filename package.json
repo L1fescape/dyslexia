@@ -1,0 +1,19 @@
+{
+  "name": "dyslexia",
+  "version": "1.0.0",
+  "description": "Jumble text to simulate reading with dyslexia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dyslexia",
+    "scramble"
+  ],
+  "author": "Andrew Kennedy <andrew@akenn.org>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "random-int": "^1.0.0"
+  }
+}
