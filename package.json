@@ -1,6 +1,10 @@
 {
   "name": "dyslexia",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akenn/dyslexia.git"
+  },
   "description": "Jumble text to simulate reading with dyslexia",
   "main": "index.js",
   "scripts": {
